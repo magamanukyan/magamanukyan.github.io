@@ -25,8 +25,9 @@ import dashboard from './Dashboard.png';
 import fitclub from './Fitclub.png';
 import realEstate from './realEstate.png';
 import gym from './Gym.png';
-import skincare from './skincare.png'
-import skincare1 from './skincare1.png'
+import skincare from './skincare.png';
+import skincare1 from './skincare1.png';
+import shop from './Shop.png'
 
 export {
   logo,
@@ -55,5 +56,6 @@ export {
   realEstate,
   gym,
   skincare,
-  skincare1
+  skincare1,
+  shop
 };

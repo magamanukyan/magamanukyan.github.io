@@ -15,7 +15,8 @@ import {
     fitclub,
     realEstate,
     skincare1,
-    gym
+    gym,
+    shop
   } from "../assets";
   
   export const navLinks = [
@@ -187,6 +188,27 @@ import {
       ],
       image: fitclub,
       source_code_link: "https://github.com/magamanukyan/FitClub-Raect",
+    },
+    {
+      name: "Online Shop",
+      description:
+        "Webpage is dynamic platform that revolutionizes the way you shop online. With a  modern design, it offers a seamless user experience that combines catalog of products spanning various categories. .",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mui",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: shop,
+      source_code_link: "https://github.com/magamanukyan/online-shop",
     },
     {
       name: "Real Estate",
