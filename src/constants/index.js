@@ -277,7 +277,7 @@ import {
       ],
       image: gym,
       source_code_link: "https://github.com/magamanukyan/FitClubApiReact",
-      source_link:"https://vercel.com/magamanukyan/fit-club-api-react"
+      source_link:"https://fit-club-api-react.vercel.app/"
     },
   ];
   
