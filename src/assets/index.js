@@ -28,6 +28,7 @@ import gym from './Gym.png';
 import skincare from './skincare.png';
 import skincare1 from './skincare1.png';
 import shop from './Shop.png'
+import project from './project.png'
 
 export {
   logo,
@@ -57,5 +58,6 @@ export {
   gym,
   skincare,
   skincare1,
-  shop
+  shop,
+  project
 };

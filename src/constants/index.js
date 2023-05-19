@@ -167,6 +167,7 @@ import {
       ],
       image: dashboard,
       source_code_link: "https://github.com/magamanukyan/Dashboard-React",
+      source_link:"https://dashboard-react-seven-lovat.vercel.app/"
     },
     {
       name: "FitClub",
@@ -188,6 +189,7 @@ import {
       ],
       image: fitclub,
       source_code_link: "https://github.com/magamanukyan/FitClub-Raect",
+      source_link:"https://gym-ctj0uytoy-magamanukyan.vercel.app/",
     },
     {
       name: "Online Shop",
@@ -209,6 +211,7 @@ import {
       ],
       image: shop,
       source_code_link: "https://github.com/magamanukyan/online-shop",
+      source_link:"https://ecommercewebpage.vercel.app/"
     },
     {
       name: "Real Estate",
@@ -230,6 +233,7 @@ import {
       ],
       image: realEstate,
       source_code_link: "https://github.com/magamanukyan/realty-raect",
+      source_link:"https://realty-raect.vercel.app/",
     },
     {
       name: "Skincare website",
@@ -250,7 +254,8 @@ import {
         },
       ],
       image: skincare1,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/magamanukyan/Scincare-React",
+      source_link:"https://skincare-gamma.vercel.app/"
     },
     {
       name: "Online gym",
@@ -272,6 +277,7 @@ import {
       ],
       image: gym,
       source_code_link: "https://github.com/magamanukyan/FitClubApiReact",
+      source_link:"https://vercel.com/magamanukyan/fit-club-api-react"
     },
   ];
   
