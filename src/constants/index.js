@@ -138,7 +138,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After she optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Luiza",
       designation: "CTO",
       company: "...Corp",
