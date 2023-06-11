@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { Mail, Phone } from "@mui/icons-material";
 
 const Contact = () => {
   const formRef = useRef();
@@ -72,6 +73,14 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
+        <div className='bg-tertiary py-4 px-6 text-white rounded-lg outline-none border-none font-medium' > 
+        <a href="phone:+37494504447"><Phone className="mr-6"/>+37494504447</a>
+            </div>
+        <div className='bg-tertiary py-4 px-6 text-white rounded-lg outline-none border-none font-medium' > 
+             <a href="mailto:manukyanmaga98@gmail.com"><Mail className="mr-6"/>manukyanmaga98@gmail.com</a>
+            </div>
+       
+        
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
@@ -86,7 +95,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
