@@ -16,7 +16,8 @@ import {
     realEstate,
     skincare1,
     gym,
-    shop
+    shop,
+    ecommerce
   } from "../assets";
   
   export const navLinks = [
@@ -194,7 +195,7 @@ import {
     {
       name: "Online Shop",
       description:
-        "Webpage is dynamic platform that revolutionizes the way you shop online. With a  modern design, it offers a seamless user experience that combines catalog of products spanning various categories. .",
+        "Webpage is dynamic platform that revolutionizes the way you shop online. With a  modern design, it offers a seamless user experience that combines catalog of products spanning various categories. ",
       tags: [
         {
           name: "react",
@@ -236,26 +237,26 @@ import {
       source_link:"https://realty-raect.vercel.app/",
     },
     {
-      name: "Skincare website",
+      name: "Ecommerce website",
       description:
-        "This website s dedicated to providing viewers with a wealth of information on all things skincare, book and buy healthy, useful and high quality products  ",
+        "Webpage is dynamic platform that revolutionizes the way you shop online. With a  modern design, it offers a seamless user experience that combines catalog of products spanning various categories.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "swiper",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "scss",
           color: "pink-text-gradient",
         },
       ],
-      image: skincare1,
-      source_code_link: "https://github.com/magamanukyan/Scincare-React",
-      source_link:"https://skincare-gamma.vercel.app/"
+      image: ecommerce,
+      source_code_link: "https://github.com/magamanukyan/ecommerce-webpage.git",
+      source_link:"https://ecommerce-webpage-eight.vercel.app/"
     },
     {
       name: "Online gym",

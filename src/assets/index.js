@@ -29,6 +29,7 @@ import skincare from './skincare.png';
 import skincare1 from './skincare1.png';
 import shop from './Shop.png'
 import project from './project.png'
+import ecommerce from './ecommerce.png'
 
 export {
   logo,
@@ -59,5 +60,6 @@ export {
   skincare,
   skincare1,
   shop,
-  project
+  project,
+  ecommerce
 };
