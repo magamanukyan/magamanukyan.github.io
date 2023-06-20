@@ -30,6 +30,7 @@ import skincare1 from './skincare1.png';
 import shop from './Shop.png'
 import project from './project.png'
 import ecommerce from './ecommerce.png'
+import socialapp from './social-app.png'
 
 export {
   logo,
@@ -61,5 +62,6 @@ export {
   skincare1,
   shop,
   project,
-  ecommerce
+  ecommerce,
+  socialapp
 };

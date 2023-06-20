@@ -13,8 +13,7 @@ import {
     threejs,
     dashboard,
     fitclub,
-    realEstate,
-    skincare1,
+    socialapp,
     gym,
     shop,
     ecommerce
@@ -149,6 +148,28 @@ import {
   
   const projects = [
     {
+      name: "Social App",
+      description:
+        "SocialWave is an innovative social platform using modern web technologies such as React.js, Sanity, Tailwind CSS and provides a client-server architecture that ensures efficient data handling and user interactions. ",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Sanity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: socialapp,
+      source_code_link: "https://github.com/magamanukyan/ShareMe",
+      source_link:"https://share-me-jade.vercel.app/"
+    },
+    {
       name: "Dashboard",
       description:
         "Web-based dashboard that typically displays data in the form of visualizations such as charts, graphs, tables, and maps, making it easier for users to quickly interpret and understand complex data sets.",
@@ -214,28 +235,7 @@ import {
       source_code_link: "https://github.com/magamanukyan/online-shop",
       source_link:"https://ecommercewebpage.vercel.app/"
     },
-    {
-      name: "Real Estate",
-      description:
-        "A comprehensive booking and hiring platform that dedicated to helping people find the perfect place to call home, allows them to hire and buy apartments, offers  recommendations for popular apartments.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mui",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: realEstate,
-      source_code_link: "https://github.com/magamanukyan/realty-raect",
-      source_link:"https://realty-raect.vercel.app/",
-    },
+ 
     {
       name: "Ecommerce website",
       description:
