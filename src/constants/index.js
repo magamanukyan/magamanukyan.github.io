@@ -16,7 +16,8 @@ import {
     socialapp,
     gym,
     shop,
-    ecommerce
+    ecommerce,
+    headphone
   } from "../assets";
   
   export const navLinks = [
@@ -190,6 +191,28 @@ import {
       image: dashboard,
       source_code_link: "https://github.com/magamanukyan/Dashboard-React",
       source_link:"https://dashboard-react-seven-lovat.vercel.app/"
+    },
+    {
+      name: "Ecommerce Webpage",
+      description:
+        "This project is developed as a dynamic and interactive headphone webpage using React, Sanity, Toast, and React Router DOM. It showcases a variety of headphones and provides an immersive user experience.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Sanity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Toast",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: headphone,
+      source_code_link: "https://github.com/magamanukyan",
+      source_link:"https://store-headphone.vercel.app/"
     },
     {
       name: "FitClub",

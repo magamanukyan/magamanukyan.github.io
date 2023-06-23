@@ -31,6 +31,7 @@ import shop from './Shop.png'
 import project from './project.png'
 import ecommerce from './ecommerce.png'
 import socialapp from './social-app.png'
+import headphone from './headphone.png'
 
 export {
   logo,
@@ -63,5 +64,6 @@ export {
   shop,
   project,
   ecommerce,
-  socialapp
+  socialapp,
+  headphone
 };
