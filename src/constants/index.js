@@ -17,7 +17,8 @@ import {
     gym,
     shop,
     ecommerce,
-    headphone
+    headphone,
+    promptopia
   } from "../assets";
   
   export const navLinks = [
@@ -280,6 +281,28 @@ import {
       image: ecommerce,
       source_code_link: "https://github.com/magamanukyan/ecommerce-webpage.git",
       source_link:"https://ecommerce-webpage-eight.vercel.app/"
+    },
+    {
+      name: "Prompts for AI",
+      description:
+        "Webpage is dynamic platform for posts and prompts directed to AI.This project is developed as a dynamic and interactive  webpage using Next, MongoDB, tailwindcss. ",
+      tags: [
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecommerce,
+      source_code_link: "https://github.com/magamanukyan/project-promtopia/tree/main",
+      source_link:"https://project-promtopia-p73fmgahz-magamanukyan.vercel.app/"
     },
     {
       name: "Online gym",
