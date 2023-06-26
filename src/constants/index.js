@@ -300,7 +300,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: ecommerce,
+      image: promptopia,
       source_code_link: "https://github.com/magamanukyan/project-promtopia/tree/main",
       source_link:"https://project-promtopia-p73fmgahz-magamanukyan.vercel.app/"
     },
