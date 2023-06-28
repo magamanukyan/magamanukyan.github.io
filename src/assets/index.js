@@ -33,6 +33,7 @@ import ecommerce from './ecommerce.png'
 import socialapp from './social-app.png'
 import headphone from './headphone.png'
 import promptopia from './promptopia.png'
+import carBooking from './carBooking2.png'
 
 export {
   logo,
@@ -67,5 +68,6 @@ export {
   ecommerce,
   socialapp,
   headphone,
-  promptopia
+  promptopia,
+  carBooking
 };

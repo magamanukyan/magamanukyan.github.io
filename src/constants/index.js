@@ -18,7 +18,8 @@ import {
     shop,
     ecommerce,
     headphone,
-    promptopia
+    promptopia,
+    carBooking
   } from "../assets";
   
   export const navLinks = [
@@ -170,6 +171,28 @@ import {
       image: socialapp,
       source_code_link: "https://github.com/magamanukyan/ShareMe",
       source_link:"https://share-me-jade.vercel.app/"
+    },
+    {
+      name: "Cars Booking Website",
+      description:
+        "This car booking website leverages modern web technologies like Next.js, Rapid API, and Tailwind CSS and my adopting a client-server architecture, the platform efficiently manages data handling and enables smooth user interactions. ",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Rapid API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carBooking,
+      source_code_link: "https://github.com/magamanukyan/car-booking",
+      source_link:"https://car-booking-two.vercel.app/"
     },
     {
       name: "Dashboard",
