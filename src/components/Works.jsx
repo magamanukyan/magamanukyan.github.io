@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({index, name, description, tags, image, source_code_link, source_link})=>{
   return (
-    <motion.div  variants={fadeIn('up', 'spring', index*0.5, 0.75)} onClick={()=>window.open( source_link, '_blank')}>
+    <motion.div   onClick={()=>window.open( source_link, '_blank')}>
       <Tilt
         options={{
           max:45,
@@ -58,7 +58,7 @@ const Works = () => {
     </motion.div>
     <div className='w-full flex'>
       <motion.p 
-      variants={fadeIn("", "", 0.1, 1)}
+      // variants={fadeIn("", "", 0.1, 1)}
       className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         Following projects showcases my skills. Each project is briefly described with links to code repositories and life demos in it. It reflects my ability to solve problems, work with different technologies and manage projects effectively.
       </motion.p>
