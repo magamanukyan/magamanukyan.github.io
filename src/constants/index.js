@@ -173,9 +173,9 @@ import {
       source_link:"https://share-me-jade.vercel.app/"
     },
     {
-      name: "Cars Booking Website",
+      name: "Cars' Booking Website",
       description:
-        "This car booking website leverages modern web technologies like Next.js, Rapid API, and Tailwind CSS and my adopting a client-server architecture, the platform efficiently manages data handling and enables smooth user interactions. ",
+        "This car booking website leverages modern web technologies like Next.js, Rapid API, Tailwind CSS and by adopting a client-server architecture, it efficiently manages data handling and user interactions ",
       tags: [
         {
           name: "Next.js",
