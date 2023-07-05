@@ -19,6 +19,7 @@ import {
     ecommerce,
     headphone,
     promptopia,
+    flexible,
     carBooking
   } from "../assets";
   
@@ -239,6 +240,28 @@ import {
       source_link:"https://store-headphone.vercel.app/"
     },
     {
+      name: "Flexible",
+      description:
+        "This developer-focused project leverages Cloudinary, JWT, Tailwind CSS, and Next.js to create an interactive platform for sharing  projects. Developers can showcase their work and edit profiles.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Cloudinary",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JWT",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: headphone,
+      source_code_link: "https://github.com/magamanukyan",
+      source_link:"https://grafbase-flexible-henna.vercel.app/"
+    },
+    {
       name: "FitClub",
       description:
         "Webpage that offers a variety of programs and packages designed to meet the needs and interests of users dedicated to helping people to achieve their best mental and physical health.",
@@ -330,7 +353,7 @@ import {
     {
       name: "Online gym",
       description:
-        " website is packed with online exercises and YouTube videos that target all parts of the body, from full-body workouts to targeted exercises for specific muscle groups",
+        " Website is packed with online exercises and YouTube videos that target all parts of the body, from full-body workouts to targeted exercises for specific muscle groups",
       tags: [
         {
           name: "react",

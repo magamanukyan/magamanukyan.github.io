@@ -34,6 +34,7 @@ import socialapp from './social-app.png'
 import headphone from './headphone.png'
 import promptopia from './promptopia.png'
 import carBooking from './carBooking2.png'
+import flexible from './flexible.png'
 
 export {
   logo,
@@ -69,5 +70,6 @@ export {
   socialapp,
   headphone,
   promptopia,
-  carBooking
+  carBooking,
+  flexible
 };
