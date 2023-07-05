@@ -257,7 +257,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: headphone,
+      image: flexible,
       source_code_link: "https://github.com/magamanukyan",
       source_link:"https://grafbase-flexible-henna.vercel.app/"
     },
