@@ -35,6 +35,9 @@ import headphone from './headphone.png'
 import promptopia from './promptopia.png'
 import carBooking from './carBooking2.png'
 import flexible from './flexible.png'
+import amazon from './amazon.png'
+import estate from './estate.png'
+import shoppersParadise from './shoppersParadise.png'
 
 export {
   logo,
@@ -71,5 +74,8 @@ export {
   headphone,
   promptopia,
   carBooking,
-  flexible
+  flexible,
+  amazon,
+  estate,
+  shoppersParadise
 };

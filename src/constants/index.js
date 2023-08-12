@@ -20,7 +20,10 @@ import {
     headphone,
     promptopia,
     flexible,
-    carBooking
+    carBooking,
+    amazon,
+    estate,
+    shoppersParadise
   } from "../assets";
   
   export const navLinks = [
@@ -238,6 +241,72 @@ import {
       image: headphone,
       source_code_link: "https://github.com/magamanukyan",
       source_link:"https://store-headphone.vercel.app/"
+    },
+    {
+      name: "Ecommerce Webpage",
+      description:
+        "This project is developed as a dynamic and interactive headphone webpage using React, Strapi, Stripe, and React Router DOM. It showcases a variety of headphones and provides an immersive user experience.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "strapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: shoppersParadise,
+      source_code_link: "https://github.com/magamanukyan",
+      source_link:"https://shoppers-paradise.vercel.app/"
+    },
+    {
+      name: "Amazon Webpage",
+      description:
+        "This project is developed as a dynamic and interactive amazon webpage using Next.js, Tailwind Css, Stripe, and React Router DOM. It showcases a variety of headphones and provides an immersive user experience.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: amazon,
+      source_code_link: "https://github.com/magamanukyan/amazon-app",
+      source_link:"https://amazon-app-xi.vercel.app/"
+    },
+    {
+      name: "Real Estate",
+      description:
+        "This user-friendly and dynamic real estate platform built on Next.js, Tailwind CSS, and Ant Design (Antd). Whether you're looking for a cozy apartment or a spacious family home, it has got you covered..",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Antd",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: estate,
+      source_code_link: "https://github.com/magamanukyan",
+      source_link:"https://real-estate-rosy-one.vercel.app/"
     },
     {
       name: "Flexible",
